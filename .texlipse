@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Sat Aug 02 19:01:06 EDT 2014
+markTmpDer=true
+builderNum=2
+outputDir=
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=nasa_ace_140731.tex
+outputFile=nasa_ace_140731.pdf
+langSpell=en
+markDer=true
+srcDir=

@@ -1,0 +1,67 @@
+\section{Why ACE-M2?}\label{why-ace-m2}
+We learned a tremendous amount from the series of BCAT experiments conducted aboard the ISS over the past decade. One of the challenges of macroscopic photography, however, is the limited ability to see small features. Observable structures have to be at least a few pixels wide, which means we can image features that have to be tens of microns across, or larger. The particles are a half-micron in diameter, which means that the early stages of phase-separation, or indeed any other process we wish to observe with colloids, are not visible with traditional photography. We see this in our data; we don't see much happening within the first (sometimes many) hours after sample mixing.
+
+ACE allows us to put these same samples under the microscope, where we can comfortably get micron-level resolution, and if everything works out, significantly better. Scientifically, we are able to then watch the structures forming from a much earlier time, when they are smaller, which gives insight into the fundamental mechanisms driving these processes. 
+
+The microscope, however, is a new (to us, at least) facility, and its capabilities on orbit are not well-characterized for our purposes: can we get enough light to the sample to see the particles? What is the range of intensities that we can detect at the camera, with the various filters and dichroics in the system? Will the particles be visible? What is the image quality using different microscope objectives? These parameters all depend on our choice of sample, as well as the hardware on orbit, and the on-paper specifications from the manufacturers are often rather poor guides, as they apply primarily to pristine instruments in a clean, ground-based, stable environment---not reflecting the real-world challenges of flying a vehicle in low-earth orbit.
+
+Therefore, we are launching three categories of samples:
+\begin{enumerate}
+\item \textbf{Fluorescent dyes in solvent:} these samples establish that we are able to observe fluorescence, using the same fluorophores as are in the colloidal particles, but without any particles. This frees us from having to worry about, for instance, whether the particles are stable, or sediment out, or can be mixed.
+
+\item \textbf{Suspensions of fluorescent colloidal particles in solvent:} these samples allow us to measure intensities of different particle concentrations, with the end-goal of being able to take a sample and identify its density (volume fraction) based on fluorecence intensity, a quantitative use of the microscope. They are also a test of whether the particles survive the launch and can be mixed, and are stable and bright.
+
+\item \textbf{Mixtures of colloidal particles and polymers in solvent:} these samples should exhibit dynamic changes, undergoing the process of phase separation. We should see the formation of structures much as we saw in BCAT, but on a smaller length scale and starting much earlier, with higher-magnification microscopy.
+
+\end{enumerate}
+
+\section{Sample composition charts}\label{sample-composition-charts}
+Here are the exact samples we delivered to NASA / ZIN, and are launching to the ISS. All of the samples have the same solvent: 18\% cis-decalin, 22\% tetralin and 60\% tetrachloroethylene, where the percentages are based on masses (not volumes). We have two particle sizes---large (880 nm radius) and small (290 nm radius)---and all have the Cy3-MMA fluorescent dye. We use one polymer, a linear polystyrene with a nominal molecular weight of 11.4M; its concentration is expressed in mg of polymer per gram of solvent.
+
+\subsection{Fluorescent dyes}\label{fluorescent-dyes}
+\begin{center}
+\begin{tabular}{c|c|c|c}
+No. & Name & Dye & Conc. \\
+\hline
+1 & plu\_ACEM2\_Cy3M1 & Cy3-MMA & 0.048\%\\
+2 & plu\_ACEM2\_Cy3M4 & Cy3-MMA & 0.012\%\\
+3 & plu\_ACEM2\_DiI1 & DiI & 0.062\%\\
+4 & plu\_ACEM2\_DiI4 & DiI & 0.016\%\\
+5 & plu\_ACEM2\_DiO1 & DiO & 0.041\%\\
+6 & plu\_ACEM2\_DiO4 & DiO & 0.010\%\\
+7 & plu\_ACEM2\_solv &  & 0\\
+\end{tabular}
+\end{center}
+
+\subsection{Colloidal suspensions}\label{colloidal-suspensions}
+\begin{center}
+\begin{tabular}{c|c|c|c}
+No. & Name & Colloid size & $\phi$\\
+\hline
+8 & plu\_ACEM2\_lg\_40p0 & large & 40.0\%\\
+9 & plu\_ACEM2\_lg\_30p0 & large & 30.0\%\\
+10 & plu\_ACEM2\_lg\_19p9 & large & 19.9\%\\
+11 & plu\_ACEM2\_lg\_10p7 & large & 10.7\%\\
+12 & plu\_ACEM2\_lg\_05p2 & large & 5.2\%\\
+13 & plu\_ACEM2\_lg\_00p4 & large & 0.4\%\\
+\hline
+14 & plu\_ACEM2\_sm\_45p0 & small & 45.0\%\\
+15 & plu\_ACEM2\_sm\_29p9 & small & 29.9\%\\
+16 & plu\_ACEM2\_sm\_19p8 & small & 19.8\%\\
+17 & plu\_ACEM2\_sm\_10p1 & small & 10.1\%\\
+18 & plu\_ACEM2\_sm\_05p0 & small & 5.0\%\\
+19 & plu\_ACEM2\_sm\_00p5 & small & 0.5\%\\
+\end{tabular}
+\end{center}
+
+\subsection{Colloid-polymer mixtures}\label{colloid-polymer-mixtures}
+\begin{center}
+\begin{tabular}{c|c|c|c|c}
+No. & Name & Colloid size & $\phi$ & $C_\mathrm{p}$ \\
+\hline
+20 & plu\_ACEM2\_sm\_ps & small & 15.0\% & 0.529 mg/g\\
+21 & plu\_ACEM2\_lg\_ps & large & 20.5\% & 0.153 mg/g\\
+22 & plu\_ACEM2\_lg\_gel & large & 22.0\% & 0.275 mg/g\\
+\end{tabular}
+\end{center}
+
